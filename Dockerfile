@@ -8,3 +8,4 @@ COPY . /app/
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 RUN chmod +x start.sh
 CMD ["bash", "start.sh"]
+
